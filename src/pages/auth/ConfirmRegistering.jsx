@@ -1,4 +1,4 @@
-import {ConfirmRegistering, Successfully, TotalLogo} from "../../assets/index.js";
+import {ConfirmRegistering, Successfully} from "../../assets/index.js";
 import PopupSettingMenu from "../../shared/PopupSettingMenu.jsx";
 import PasswordChangedSuccessfullyHint from "../../shared/auth/PasswordChangedSuccessfullyHint.jsx";
 
@@ -12,7 +12,7 @@ const ConfirmPasswordSent = () => {
                     <div className={`relative z-10 flex flex-col justify-center w-full h-full lg:py-20`}>
 
                         <div className={`mx-auto`}>
-                            <img src={TotalLogo} alt="Logo" className={`h-[120px] object-contain`}/>
+                            {/*<img src={TotalLogo} alt="Logo" className={`h-[120px] object-contain`}/>*/}
                         </div>
 
                         <div className="mt-12">

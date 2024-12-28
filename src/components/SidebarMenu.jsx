@@ -5,7 +5,6 @@ import {
     InvoiceIcon, LoadingIcon, LoginIcon, OverlayIcon, PinMenuArrowImg,
     ProductsIcon, ProgressBarIcon, RegisterIcon, RegularFormIcon, ReviewsIcon,
     SellersIcon, TabIcon, TooltipIcon,
-    TotalLogo,
     TransactionIcon, TypographyIcon
 } from "../assets/index.js";
 import { useState } from "react";
@@ -88,8 +87,8 @@ const SidebarMenu = ({ pinMenu, setPinMenu, menuClick }) => {
                     className={`flex-none xl:flex items-center z-10 px-[16.5px] h-0 xl:h-[82px] w-[245px] overflow-hidden relative duration-300`}
                 >
                     <a className="hidden xl:flex items-center transition-[margin] duration-300">
-                        <img src={TotalLogo} alt="menu logo"
-                             className={`h-[72px] ${pinMenu ? 'ml-[75px] transition-all' : ''} ${menuHover ? 'ml-[75px] transition-all' : ''}`}/>
+                        {/*<img src={TotalLogo} alt="menu logo"*/}
+                        {/*     className={`h-[72px] ${pinMenu ? 'ml-[75px] transition-all' : ''} ${menuHover ? 'ml-[75px] transition-all' : ''}`}/>*/}
                     </a>
                     <div
                         className="hidden xl:block cursor-pointer ml-auto transition-[opacity,transform] 3xl:flex items-center justify-center w-[20px] h-[20px] border rounded-full border-slate-600/40 hover:bg-slate-600/5"

@@ -18,6 +18,7 @@ import AircraftHandlingCoursesCardsSlider from "../components/AircraftHandlingCo
 import SafetyCoursesCardsSlider from "../components/SafetyCoursesCardsSlider.jsx";
 import GeneralReportCards from "../components/GeneralReportCards.jsx";
 
+
 const Analytics = () => {
     const [pinMenu, setPinMenu] = useState(false);
     const pickerRef = useRef(null);

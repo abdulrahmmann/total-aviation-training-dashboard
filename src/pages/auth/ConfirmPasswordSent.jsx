@@ -1,5 +1,4 @@
-import {EmailSent, PasswordLinkSentImage, SignupImage, TotalLogo} from "../../assets/index.js";
-import AuthAirplane from "../../shared/auth/AuthAirplane.jsx";
+import {EmailSent, PasswordLinkSentImage} from "../../assets/index.js";
 import PopupSettingMenu from "../../shared/PopupSettingMenu.jsx";
 import PasswordSentHint from "../../shared/auth/PasswordSentHint.jsx";
 
@@ -13,7 +12,7 @@ const ConfirmPasswordSent = () => {
                     <div className={`relative z-10 flex flex-col justify-center w-full h-full lg:py-20`}>
 
                         <div className={`mx-auto`}>
-                            <img src={TotalLogo} alt="Logo" className={`h-[120px] object-contain`}/>
+                            {/*<img src={TotalLogo} alt="Logo" className={`h-[120px] object-contain`}/>*/}
                         </div>
 
                         <div className="mt-12">

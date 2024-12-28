@@ -1,6 +1,5 @@
-import {ForgotPasswordImage, SignupImage, TotalLogo} from "../../assets/index.js";
+import {ForgotPasswordImage} from "../../assets/index.js";
 import InputField from "../../components/InputField.jsx";
-import AuthAirplane from "../../shared/auth/AuthAirplane.jsx";
 import PopupSettingMenu from "../../shared/PopupSettingMenu.jsx";
 import {SignButton} from "../../shared/auth/SignButton.jsx";
 import ResetPasswordHint from "../../shared/auth/ResetPasswordHint.jsx";
@@ -15,7 +14,7 @@ const ForgotPasswordPage = () => {
                     <div className={`relative z-10 flex flex-col justify-center w-full h-full lg:py-20`}>
 
                         <div className={`mx-auto`}>
-                            <img src={TotalLogo} alt="Logo" className={`h-[120px] object-contain`}/>
+                            {/*<img src={TotalLogo} alt="Logo" className={`h-[120px] object-contain`}/>*/}
                         </div>
 
                         <div className="mt-8">
